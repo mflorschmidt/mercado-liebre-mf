@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100vw;
+
+}
+
+.banner{
+    width: 100vw;
+}
+
+.logo {
+    width: 200px;
+}
+
+header h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black; 
+    display: inline-block;
+    padding:5px 0
+}
+
+.main-navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+header .searchicon .input {
+    background-color: white;
+    border: black solid 1px;
+    padding: 1px;
+    color: #666; 
+    
+}
+
+header .searchicon .lupa i {
+    background-color: white;
+    border: black solid 1px;
+    padding: 1px;   
+}
+
+header div.burger-menu i {
+    background-color: #1259c3; 
+    color: white;
+    display:block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    
+}
+
+main {
+    text-align: center;
+    width: 100vw;
+}
+
+main section article{
+    margin-bottom: 10px;
+}
+
+.info-article{
+    border-top: 1px solid #ebebeb;
+    padding: 15%;
+}
+
+main section article div div i{
+    width: 40px;
+    height: 40px;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    color: #39b54a;
+    padding: 10px;
+}
+
+
+
+
+
+@media (min-width: 361px) {
+    .desc-prod{
+        display: none;
+    }
+    .desc-prod{
+        display: block;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+}
+
+@media (min-width: 769px) {
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;  
+    }
+    .main-navbar li {
+        margin: 5px;
+    }
+    .searchicon .input{
+        
+    }
+}
+
+@media (min-width 1200)-{
+
+}
